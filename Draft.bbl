@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{dillon2012comparing}
 {\sc Dillon, E., Anderson, M., and Brown, M.}
@@ -7,11 +7,26 @@
 \newblock In {\em Proceedings of the 50th Annual Southeast Regional
   Conference\/} (2012), pp.~142--147.
 
+\bibitem{ericsson1984protocol}
+{\sc Ericsson, K.~A., and Simon, H.~A.}
+\newblock {\em Protocol analysis: Verbal reports as data.}
+\newblock the MIT Press, 1984.
+
 \bibitem{feild2010predicting}
 {\sc Feild, H.~A., Allan, J., and Jones, R.}
 \newblock Predicting searcher frustration.
 \newblock In {\em Proceedings of the 33rd international ACM SIGIR conference on
   Research and development in information retrieval\/} (2010), pp.~34--41.
+
+\bibitem{fox2011procedures}
+{\sc Fox, M.~C., Ericsson, K.~A., and Best, R.}
+\newblock Do procedures for verbal reporting of thinking have to be reactive? a
+  meta-analysis and recommendations for best reporting methods.
+\newblock {\em Psychological bulletin 137}, 2 (2011), 316.
+
+\bibitem{gandhi2020lightening}
+{\sc Gandhi, I., and Gandhi, A.}
+\newblock Lightening the cognitive load of shell programming.
 
 \bibitem{grafsgaard2014additive}
 {\sc Grafsgaard, J.~F., Wiggins, J.~B., Vail, A.~K., Boyer, K.~E., Wiebe,
@@ -27,6 +42,18 @@
   theoretical research.
 \newblock In {\em Advances in psychology}, vol.~52. Elsevier, 1988,
   pp.~139--183.
+
+\bibitem{mcdonald2020impact}
+{\sc Mcdonald, S., Cockton, G., and Irons, A.}
+\newblock The impact of thinking-aloud on usability inspection.
+\newblock {\em Proceedings of the ACM on Human-Computer Interaction 4}, EICS
+  (2020), 1--22.
+
+\bibitem{treharne2012optimising}
+{\sc Treharne, K., Powers, D.~M., and Leibbrandt, R.}
+\newblock Optimising visual and textual in search user interfaces.
+\newblock In {\em Proceedings of the 24th Australian Computer-Human Interaction
+  Conference\/} (2012), pp.~616--619.
 
 \bibitem{unal2021effects}
 {\sc Unal, A., and Topu, F.~B.}
