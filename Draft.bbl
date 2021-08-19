@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{dillon2012comparing}
+{\sc Dillon, E., Anderson, M., and Brown, M.}
+\newblock Comparing mental models of novice programmers when using visual and
+  command line environments.
+\newblock In {\em Proceedings of the 50th Annual Southeast Regional
+  Conference\/} (2012), pp.~142--147.
+
+\bibitem{feild2010predicting}
+{\sc Feild, H.~A., Allan, J., and Jones, R.}
+\newblock Predicting searcher frustration.
+\newblock In {\em Proceedings of the 33rd international ACM SIGIR conference on
+  Research and development in information retrieval\/} (2010), pp.~34--41.
+
+\bibitem{grafsgaard2014additive}
+{\sc Grafsgaard, J.~F., Wiggins, J.~B., Vail, A.~K., Boyer, K.~E., Wiebe,
+  E.~N., and Lester, J.~C.}
+\newblock The additive value of multimodal features for predicting engagement,
+  frustration, and learning during tutoring.
+\newblock In {\em Proceedings of the 16th International Conference on
+  Multimodal Interaction\/} (2014), pp.~42--49.
+
+\bibitem{hart1988development}
+{\sc Hart, S.~G., and Staveland, L.~E.}
+\newblock Development of nasa-tlx (task load index): Results of empirical and
+  theoretical research.
+\newblock In {\em Advances in psychology}, vol.~52. Elsevier, 1988,
+  pp.~139--183.
+
+\bibitem{unal2021effects}
+{\sc Unal, A., and Topu, F.~B.}
+\newblock Effects of teaching a computer programming language via hybrid
+  interface on anxiety, cognitive load level and achievement of high school
+  students.
+\newblock {\em Education and Information Technologies\/}, 1--19, year={2021},
+  publisher={Springer}.
+
+\end{thebibliography}
