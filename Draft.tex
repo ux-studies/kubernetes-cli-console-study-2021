@@ -8,6 +8,7 @@
 \usepackage{array}
 \usepackage{amssymb}
 \usepackage{todonotes}
+\usepackage{caption}
 
 %SetFonts
 
@@ -79,26 +80,24 @@ The goal of the Kubernetes task was to create an application in a namespace, fin
 
 \section{Evaluation Methodology}
 \subsection{Low Level User Interactions}
-The video recordings were manually analyzed to count how frequently participants used the keyboard to enter a command (k), how frequently participants clicked (c), and how frequently participants moved their mouse and/or scrolled to click (m). Participant input type frequencies were stored in tuples as (k, c, m). In the terminal, we counted the total number of commands entered to determine how frequently participants used the keyboard. In the OpenShift console, we counted the number of times participants typed something followed by an enter or click to enter, as the total number of commands entered to determine how frequently participants used the keyboard. In both interfaces, we counted how frequently participants clicked by counting the number of times participants clicked to copy/paste text and the number of times participants clicked a button. In both interfaces, mouse movements were only noted when they were followed by a click to copy/paste or followed by a button click and we counted every time participants scrolled up or down. 
+The video recordings were manually analyzed to count how frequently participants used the keyboard to enter a command (k), how frequently participants clicked (c), and how frequently participants moved their mouse and/or scrolled to click (m). Participant input type frequencies were stored in tuples as (k, c, m). In the terminal, we counted the total number of commands entered to determine how frequently participants used the keyboard. In the OpenShift console, we counted the number of times participants typed something followed by an enter or click to enter, as the total number of commands entered to determine how frequently participants used the keyboard. In both interfaces, we counted how frequently participants clicked by counting the number of times participants clicked to copy/paste text and the number of times participants clicked a button. In both interfaces, mouse movements were only noted when they were followed by a click to copy/paste or followed by a button click and we counted every time participants scrolled up or down. Table X provides a list of all the input measures we collected for analysis and their exact definitions.
 
 \subsection{High Level User Interactions}
-We kept track of the specific commands used by participants, such as how frequently participants used copy/paste or tab completion. Table X provides a list of all the input measures we collected for analysis and their exact definitions. 
-
-Regular expressions were used to create shortened descriptions of the patterns of input types used to complete the task with each tool. Table X provides a list of the regular expressions participants used to complete the task with each tool. 
+We kept track of the specific commands used by participants, such as how frequently participants used copy/paste or tab completion. Regular expressions were used to create shortened descriptions of the input type patterns used to complete the task with each tool. The regular expressions were composed using the letters that represent the input type (k, c, m). We captured the input type patterns used to complete the following subtasks for each tool interface: command execution, copy/paste, drill down, drill up, and tab completion. Table X provides a list of the regular expressions participants used to complete the task with each tool. 
 
 \subsection{Interpretation}
 \subsubsection{Exhaustion}
-In support of the qualitative data gathered from the surveys on participants' perceived cognitive load, we collect the user input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables X-X.
-\subsubsection{Dissonance}
-To further support the qualitative data gathered from the surveys on participants' perceived cognitive load, we kept track of the specific commands participants used as well as the inputs that make up those commands and patterns of switching between different inputs as a measure of dissonance due to the number of times the participant had to task switch to complete the task. 
+We collected the user input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables 1-4.
+\subsubsection{Disruption}
+We kept track of the specific commands participants used, the inputs that make up those commands, and patterns of switching between different inputs (composed as regular expressions) as a measure of disruption due to the number of times the participant had to task switch (for example, between typing and mousing) to complete the task. 
 
 \section{Results}
 %We compared the tuples of total input type frequencies (k, c, m) to participants' perceived cognitive load ratings and tool preferences. 
-
 %We compared the regular expressions of input types to participants' perceived cognitive load ratings to determine whether there was a correlation with patterns of task switching.
 
-\begin{center}
-\begin{tabular}{ | c | c | c | c | c | } 
+\begin{table}
+ \centering
+  \begin{tabular}{ | c | c | c | c | c | }
   \hline
   P1 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
   \hline
@@ -106,11 +105,13 @@ To further support the qualitative data gathered from the surveys on participant
   \hline
   OpenShift console & 0 & 2 & 77 & 80 \\ 
   \hline
-\end{tabular}
-\end{center}
+  \end{tabular}
+ \caption{P1 input frequencies}
+\end{table}
 
-\begin{center}
-\begin{tabular}{ | c | c | c | c | c | } 
+\begin{table}
+ \centering
+  \begin{tabular}{ | c | c | c | c | c | } 
   \hline
   P2 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
   \hline
@@ -118,11 +119,13 @@ To further support the qualitative data gathered from the surveys on participant
   \hline
   OpenShift console & 0 & 13 & 145 & 172 \\ 
   \hline
-\end{tabular}
-\end{center}
+  \end{tabular}
+ \caption{P2 input frequencies}
+\end{table}
 
-\begin{center}
-\begin{tabular}{ | c | c | c | c | c | } 
+\begin{table}
+ \centering
+  \begin{tabular}{ | c | c | c | c | c | } 
   \hline
   P3 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
   \hline
@@ -130,11 +133,13 @@ To further support the qualitative data gathered from the surveys on participant
   \hline
   OpenShift console & 4 & 5 & 142 & 192 \\ 
   \hline
-\end{tabular}
-\end{center}
+  \end{tabular}
+ \caption{P3 input frequencies}
+\end{table}
 
-\begin{center}
-\begin{tabular}{ | c | c | c | c | c | } 
+\begin{table}
+ \centering
+  \begin{tabular}{ | c | c | c | c | c | } 
   \hline
   P4 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
   \hline
@@ -142,8 +147,9 @@ To further support the qualitative data gathered from the surveys on participant
   \hline
   OpenShift console & 4 & 14 & 133 & 137 \\ 
   \hline
-\end{tabular}
-\end{center}
+  \end{tabular}
+ \caption{P4 input frequencies}
+\end{table}
 
 \begin{center}
 \begin{tabular}{ | c | c | c | } 
