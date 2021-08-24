@@ -10,6 +10,8 @@
 \usepackage{amssymb}
 \usepackage{todonotes}
 \usepackage{caption}
+\usepackage{verbatim}
+\usepackage{hyperref}
 
 %SetFonts
 
@@ -79,20 +81,63 @@ During the study sessions, participants completed a Kubernetes task using the ku
 
 \section{Evaluation Methodology}
 \subsection{Low Level User Interactions}
-The video recordings were manually analyzed to count how frequently participants used the keyboard to enter a command (k), how frequently participants clicked (c), and how frequently participants moved their mouse and/or scrolled to click (m). Participant input type frequencies were stored in tuples as (k, c, m). In the terminal, we counted the total number of commands entered to determine how frequently participants used the keyboard. In the OpenShift console, we counted the number of times participants typed something followed by an enter or click to enter, as the total number of commands entered to determine how frequently participants used the keyboard. In both interfaces, we counted how frequently participants clicked by counting the number of times participants clicked to copy/paste text and the number of times participants clicked a button. In both interfaces, mouse movements were only noted when they were followed by a click to copy/paste or followed by a button click and we counted every time participants scrolled up or down. Table X provides a list of all the input measures we collected for analysis and their exact definitions.
+The video recordings were manually analyzed to count how frequently participants used the keyboard to enter a command (K), how frequently participants clicked (C), and how frequently participants moved their mouse and scrolled to click (M). In the terminal, we counted the total number of commands entered to determine how frequently participants used the keyboard. In the OpenShift console, we counted the number of times participants typed followed by an enter or click to enter, as the total number of commands entered to determine how frequently participants used the keyboard. In both interfaces, we counted how frequently participants clicked by counting the number of times participants clicked to copy/paste text. In the OpenShift console, we also counted the number of times participants clicked a button. In both interfaces, mouse movements were only noted when they were followed by a click to copy/paste or followed by a button click and we counted every time participants scrolled up or down. 
+%Table \ref{table:t6} provides a list of all the input measures we collected and defines how we counted these inputs in each tool interface.
+
+\begin{comment}
+\begin{table}
+ \centering
+  \begin{tabular}{ | c | c | c | }
+  \hline
+  Computer Input Measures & kubectl CLI & OpenShift Console \\ 
+  \hline
+  Commands Entered & & \\ 
+  \hline
+  Clicks & & \\ 
+  \hline
+  Mouse Movements & & \\ 
+  \hline
+  \end{tabular}
+ \caption{.}
+ \label{table:t}
+\end{table}
+\end{comment}
 
 \subsection{High Level User Interactions}
-We kept track of the specific commands used by participants, such as how frequently participants used copy/paste or tab completion. Regular expressions were used to create shortened descriptions of the input type patterns used to complete the task with each tool. The regular expressions were composed using the letters that represent the input type (k, c, m). We captured the input type patterns used to complete the following subtasks for each tool interface: command execution, copy/paste, drill down, drill up, and tab completion. Table X provides a list of the regular expressions participants used to complete the task with each tool. 
+We kept track of the specific commands used by participants, such as how frequently participants used copy/paste or tab completion. Regular expressions were used to create shortened descriptions of the input type patterns used to complete the task with each tool. The regular expressions were composed using the letters that represent the input type (K, C, M). We composed the input type patterns used to complete the following subtasks for each tool interface: command execution, copy/paste, navigation, and tab completion. 
 
 \subsection{Interpretation}
 \subsubsection{Exhaustion}
-We collected participant input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables \text{\ref{table:t1}--\ref{table:t4}}.
+We collected participant input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables \text{\ref{table:t1}--\ref{table:t4}}. The total input frequencies for each tool interface are shown in Table \ref{table:t5}.
+
 \subsubsection{Disruption}
-We kept track of the specific commands participants used, the inputs that make up those commands, and patterns of switching between different inputs (composed as regular expressions) as a measure of disruption due to the number of times the participant had to task switch (for example, between typing and mousing) to complete the task. 
+We kept track of the patterns of switching between different inputs (composed as regular expressions) as a measure of disruption due to the number of times the participant had to task switch (for example, between typing and mousing) to complete the task. Tables \text{\ref{table:t6}--\ref{table:t9}} provide a list of the regular expressions participants used to complete the task with each tool.
 
 \section{Results}
+
+Three participants ranked the kubctl CLI as the tool interface they preferred to use to complete the task and one participant preferred the OpenShift console to complete the task. 
+
 %We compared the tuples of total input type frequencies (k, c, m) to participants' perceived cognitive load ratings and tool preferences. 
 %We compared the regular expressions of input types to participants' perceived cognitive load ratings to determine whether there was a correlation with patterns of task switching.
+
+\begin{table}
+ \centering
+  \begin{tabular}{ | c | c | c | } 
+  \hline
+  Recommendations & kubectl CLI & OpenShift Console \\ 
+  \hline
+  P1 &  &  \\ 
+  \hline
+  P2 & & \\
+  \hline
+  P3 & seems to be doing what it is supposed to do - minor problems can be super annoying though like this one: \href{https://github.com/kubernetes/kubernetes/issues/42552} & more scripting and automation? plugins? \\
+  \hline
+  P4 & better documentation & NA (not using it) \\
+  \hline
+  \end{tabular}
+ \caption{Participant recommendations for improving tools.}
+ \label{table:t10}
+\end{table}
 
 \begin{table}
  \centering
@@ -185,6 +230,7 @@ We kept track of the specific commands participants used, the inputs that make u
   \hline
   \end{tabular}
  \caption{P1 regular expression patterns.}
+ \label{table:t6}
 \end{table}
 
 \begin{table}
@@ -203,6 +249,7 @@ We kept track of the specific commands participants used, the inputs that make u
   \hline
   \end{tabular}
  \caption{P2 regular expression patterns.}
+ \label{table:t7}
 \end{table}
 
 \begin{table}
@@ -221,6 +268,7 @@ We kept track of the specific commands participants used, the inputs that make u
   \hline
   \end{tabular}
  \caption{P3 regular expression patterns.}
+ \label{table:t8}
 \end{table}
 
 \begin{table}
@@ -239,6 +287,7 @@ We kept track of the specific commands participants used, the inputs that make u
   \hline
   \end{tabular}
  \caption{P4 regular expression patterns.}
+ \label{table:t9}
 \end{table}
 
 \section{Design Implications}
