@@ -68,16 +68,16 @@ Optimizing visual and textual information and predicting user frustration in sea
 
 
 \section{Study Setup}
-We conducted a remotely moderated, within subjects user study with 4 participants who had an average of X years of programming experience. All participants belonged to the Hybrid Cloud research group at IBM, regularly used Kubernetes in their work, and had at least some prior experience using the tools. 
+We conducted a remotely moderated, within subjects user study with 4 participants who had an average of 20 years of programming experience between them. All participants belonged to the Hybrid Cloud research group at IBM, regularly used Kubernetes in their work, and had prior experience using the tools. 
 
-Before the study sessions, participants filled out a background survey to provide information about their programming experience, use of Kubernetes, and familiarity with the two tools. Participants downloaded the necessary tools onto their machines (kubectl CLI, OpenShift Console) and either used or was given access to an OpenShift cluster to run Kubernetes. After completing the study, participants filled out a follow up survey and ranked the tools based on their preference. In the follow up survey, participants were also asked to rate the tools based on their perceived cognitive load. To give us a better understanding of preference, participants also rated the quality of each tool and were asked to give reasons for why they either liked or didn’t like using each tool. Participants were also asked to share their recommendations for how each tool could be improved.
+Before the study sessions, participants filled out a background survey to provide information about their programming experience, use of Kubernetes, and familiarity with the two tools. Participants downloaded the necessary tools onto their machines (kubectl CLI, OpenShift Console) and either used or were given access to an OpenShift cluster to run Kubernetes. After completing the study, participants filled out a follow up survey and ranked the tools based on their preference. In the follow up survey, participants were also asked to rate the tools based on their perceived cognitive load. To give us a better understanding of preference, participants also rated the quality of each tool and were asked to give reasons for why they either liked or didn’t like using each tool. Participants were also asked to share their recommendations for how each tool could be improved.
 
-During the study sessions, participants completed a Kubernetes task using the kubectl CLI and the OpenShift console. Half of the participants used the kubectl CLI first and the other half used the OpenShift console first. We employed a classic "Think Aloud" user evaluation method. Video and audio from the sessions were recorded using Webex for later transcription and analysis. 
+During the study sessions, participants completed a Kubernetes task using the kubectl CLI and the OpenShift console. Half of the participants used the kubectl CLI first and the other half used the OpenShift console first. We employed a classic ``Think Aloud'' user evaluation method. Video and audio from the sessions were recorded using Webex for later transcription and analysis. 
 
 %\subsection{Pilot Testing}
 %We conducted pilot testing with two participants to identify any issues in our study design. One participant identified a misleading error in one of the task instructions so we %rewrote it. Initially, we had only provided task hints for the kubectl CLI, and one participant realized that they could not apply these hints to the OpenShift console, so we /%also included task hints for the OpenShift console. We found that both participants were able to complete the task using each tool in under 20 minutes.
 
-The goal of the Kubernetes task was to create an application in a namespace, find the deployment pods that have the string “magic key” in their logs, delete the application, and then delete the namespace. Participants were given a GitHub repo with the application files and task instructions. No time limit was set to complete the task. If participants got stuck during the session, hints specific to each tool interface were provided in hyperlinks below the task instructions. Participants were told to think aloud during the sessions and given a prompt to continue if they fell silent for more than 15 seconds.
+Participants were given a GitHub repo with the application files and task instructions. No time limit was set to complete the task. If participants got stuck while completing the task, hints specific to each tool interface were provided in hyperlinks below the task instructions. Participants were told to think aloud while completing the task and given a prompt to continue if they fell silent for more than 15 seconds. The goal of the Kubernetes task was to create an application in a namespace, find the deployment pods that have the string ``magic key'' in their logs, delete the application, and then delete the namespace. 
 
 \section{Evaluation Methodology}
 \subsection{Low Level User Interactions}
@@ -88,7 +88,7 @@ We kept track of the specific commands used by participants, such as how frequen
 
 \subsection{Interpretation}
 \subsubsection{Exhaustion}
-We collected the user input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables \text{\ref{table:t1}--\ref{table:t4}}.
+We collected participant input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables \text{\ref{table:t1}--\ref{table:t4}}.
 \subsubsection{Disruption}
 We kept track of the specific commands participants used, the inputs that make up those commands, and patterns of switching between different inputs (composed as regular expressions) as a measure of disruption due to the number of times the participant had to task switch (for example, between typing and mousing) to complete the task. 
 
@@ -170,7 +170,6 @@ We kept track of the specific commands participants used, the inputs that make u
  \caption{Total input frequencies.}
  \label{table:t5}
 \end{table}
-
 
 \begin{table}
  \centering
