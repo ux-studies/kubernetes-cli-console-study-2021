@@ -6,6 +6,7 @@
 \usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex	
 \usepackage{array}
+\usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{todonotes}
 \usepackage{caption}
@@ -87,7 +88,7 @@ We kept track of the specific commands used by participants, such as how frequen
 
 \subsection{Interpretation}
 \subsubsection{Exhaustion}
-We collected the user input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables 1-4.
+We collected the user input frequencies as a measure of exhaustion due to the total number of interactions required to complete the task. These frequencies are shown for each participant in Tables \text{\ref{table:t1}--\ref{table:t4}}.
 \subsubsection{Disruption}
 We kept track of the specific commands participants used, the inputs that make up those commands, and patterns of switching between different inputs (composed as regular expressions) as a measure of disruption due to the number of times the participant had to task switch (for example, between typing and mousing) to complete the task. 
 
@@ -99,73 +100,91 @@ We kept track of the specific commands participants used, the inputs that make u
  \centering
   \begin{tabular}{ | c | c | c | c | c | }
   \hline
-  P1 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
+  P1 & Clicks & Commands & Mouse Movements \\ 
   \hline
-  kubectl CLI & 6 & 15 & 8 & 22 \\ 
+  kubectl CLI & 8 & 21 & 22 \\ 
   \hline
-  OpenShift console & 0 & 2 & 77 & 80 \\ 
+  OpenShift Console & 77 & 2 & 80 \\ 
   \hline
   \end{tabular}
  \caption{P1 input frequencies.}
+ \label{table:t1}
 \end{table}
 
 \begin{table}
  \centering
   \begin{tabular}{ | c | c | c | c | c | } 
   \hline
-  P2 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
+  P2 & Clicks & Commands & Mouse Movements \\ 
   \hline
-  kubectl CLI & 7 & 28 & 20 & 49 \\ 
+  kubectl CLI & 20 & 35 & 49 \\ 
   \hline
-  OpenShift console & 0 & 13 & 145 & 172 \\ 
+  OpenShift Console & 145 & 13 & 172 \\ 
   \hline
   \end{tabular}
  \caption{P2 input frequencies.}
+ \label{table:t2}
 \end{table}
 
 \begin{table}
  \centering
   \begin{tabular}{ | c | c | c | c | c | } 
   \hline
-  P3 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
+  P3 & Clicks & Commands & Mouse Movements \\ 
   \hline
-  kubectl CLI & 1 & 17 & 1 & 3 \\ 
+  kubectl CLI & 1 & 18 & 3 \\ 
   \hline
-  OpenShift console & 4 & 5 & 142 & 192 \\ 
+  OpenShift Console & 142 & 9 & 192 \\ 
   \hline
   \end{tabular}
  \caption{P3 input frequencies.}
+ \label{table:t3}
 \end{table}
 
 \begin{table}
  \centering
   \begin{tabular}{ | c | c | c | c | c | } 
   \hline
-  P4 & Copy/Paste & Keyboard & Click & Page Navigation \\ 
+  P4 & Clicks & Commands & Mouse Movements \\ 
   \hline
-  kubectl CLI & 0 & 32 & 2 & 1 \\ 
+  kubectl CLI & 2 & 32 & 1 \\ 
   \hline
-  OpenShift console & 4 & 14 & 133 & 137 \\ 
+  OpenShift Console & 133 & 18 & 137 \\ 
   \hline
   \end{tabular}
  \caption{P4 input frequencies.}
+ \label{table:t4}
 \end{table}
+
+\begin{table}
+ \centering
+  \begin{tabular}{ | c | c | c | c | c | } 
+  \hline
+  Total & Clicks & Commands & Mouse Movements \\ 
+  \hline
+  kubectl CLI & 31 & 106 & 75 \\ 
+  \hline
+  OpenShift Console & 497 & 42 & 581 \\ 
+  \hline
+  \end{tabular}
+ \caption{Total input frequencies.}
+ \label{table:t5}
+\end{table}
+
 
 \begin{table}
  \centering
   \begin{tabular}{ | c | c | c | } 
   \hline
-  P1 & kubectl CLI & OpenShift console \\ 
+  P1 & kubectl CLI & OpenShift Console \\ 
   \hline
-  Command execution &  &  \\ 
+  Command Execution &  &  \\ 
   \hline
-  Copy/paste & & \\
+  Copy/Paste & & \\
   \hline
-  Drill down & & \\
+  Navigation & & \\
   \hline
-  Drill up & & \\
-  \hline
-  Tab completion & & \\
+  Tab Completion & & \\
   \hline
   \end{tabular}
  \caption{P1 regular expression patterns.}
@@ -175,17 +194,15 @@ We kept track of the specific commands participants used, the inputs that make u
  \centering
   \begin{tabular}{ | c | c | c | } 
   \hline
-  P2 & kubectl CLI & OpenShift console \\ 
+  P2 & kubectl CLI & OpenShift Console \\ 
   \hline
-  Command execution &  &  \\ 
+  Command Execution &  &  \\ 
   \hline
-  Copy/paste & & \\
+  Copy/Paste & & \\
   \hline
-  Drill down & & \\
+  Navigation & & \\
   \hline
-  Drill up & & \\
-  \hline
-  Tab completion & & \\
+  Tab Completion & & \\
   \hline
   \end{tabular}
  \caption{P2 regular expression patterns.}
@@ -195,17 +212,15 @@ We kept track of the specific commands participants used, the inputs that make u
  \centering
   \begin{tabular}{ | c | c | c | } 
   \hline
-  P3 & kubectl CLI & OpenShift console \\ 
+  P3 & kubectl CLI & OpenShift Console \\ 
   \hline
-  Command execution &  &  \\ 
+  Command Execution &  &  \\ 
   \hline
-  Copy/paste & & \\
+  Copy/Paste & & \\
   \hline
-  Drill down & & \\
+  Navigation & & \\
   \hline
-  Drill up & & \\
-  \hline
-  Tab completion & & \\
+  Tab Completion & & \\
   \hline
   \end{tabular}
  \caption{P3 regular expression patterns.}
@@ -215,17 +230,15 @@ We kept track of the specific commands participants used, the inputs that make u
  \centering
   \begin{tabular}{ | c | c | c | } 
   \hline
-  P4 & kubectl CLI & OpenShift console \\ 
+  P4 & kubectl CLI & OpenShift Console \\ 
   \hline
-  Command execution &  &  \\ 
+  Command Execution &  &  \\ 
   \hline
-  Copy/paste & & \\
+  Copy/Paste & & \\
   \hline
-  Drill down & & \\
+  Navigation & & \\
   \hline
-  Drill up & & \\
-  \hline
-  Tab completion & & \\
+  Tab Completion & & \\
   \hline
   \end{tabular}
  \caption{P4 regular expression patterns.}
