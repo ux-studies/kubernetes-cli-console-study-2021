@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.13)  24 AUG 2021 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.13)  25 AUG 2021 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -774,7 +774,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 69.
  [2] [3]
-Overfull \hbox (407.31123pt too wide) in paragraph at lines 125--138
+Overfull \hbox (1.84644pt too wide) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/10.95 Recommendations| 
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 133--133
+[]|\OT1/cmr/m/n/10.95 Seems to be do-ing what it is
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 133--133
+\OT1/cmr/m/n/10.95 sup-posed to do. Mi-nor prob-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\OT1/cmr/m/n/10.95 lems can be su-per an-noy-ing
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 133--133
+\OT1/cmr/m/n/10.95 though like this one: []$\OT1/cmtt/m/n/10.95 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\OT1/cmtt/m/n/10.95 / / github . com / kubernetes /
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 133--134
+[]|\OT1/cmr/m/n/10.95 More script-ing and au-toma-tion?
+ []
+
+
+Overfull \hbox (34.38666pt too wide) in paragraph at lines 125--138
  [][] 
  []
 
@@ -783,24 +818,25 @@ Package rerunfilecheck Info: File `Draft.out' has not changed.
 (rerunfilecheck)             Checksum: AC484194C31968E48C36F3BFF6E94269;1651.
  ) 
 Here is how much of TeX's memory you used:
- 21732 strings out of 478994
- 398028 string characters out of 5858184
- 685070 words of memory out of 5000000
- 38799 multiletter control sequences out of 15000+600000
- 411789 words of font info for 58 fonts, out of 8000000 for 9000
+ 21735 strings out of 478994
+ 398061 string characters out of 5858184
+ 688070 words of memory out of 5000000
+ 38801 multiletter control sequences out of 15000+600000
+ 411957 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,8n,117p,1031b,858s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,11n,117p,1031b,858s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Draft.pdf (7 pages, 126675 bytes).
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Draft.pdf (7 pages, 138989 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 202 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  43 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
