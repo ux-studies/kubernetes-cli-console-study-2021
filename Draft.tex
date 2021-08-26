@@ -24,8 +24,6 @@
 
 \begin{document}
 \maketitle
-%\section{}
-%\subsection{}
 
 \section{Introduction}
 %Tool developer culture has established two modalities (text and graphics): how can we be generative and constructive in combining these or offering a new modality in light of their limitations?
@@ -44,7 +42,15 @@ Wall clock time is easy to measure and is objective, however, across these tools
 %As we observed in our study sessions, participants do not consider these inputs as having equal execution difficulty. For example, while half of our participants copy/pasted the pod names from the list of pods in the terminal to get the logs for each pod, the other half used tab completion to get the pod names and execute the command to get the logs.
 
 %The goal of our study is to illuminate user preferences for the flexibility tradeoffs offered by different classes of tools (textual and graphical) for Kubernetes. Furthermore, we seek to understand why users prefer the flexibility tradeoffs offered by different classes of tools in the context of specific interactions. 
+
+% Developed a tool based on intuition... except for monitoring tasks 
+
 We seek to answer the following research questions and determine the validity of our hypotheses:
+
+%What tools do people use? Modalities (IDEs, CLIs, Consoles)
+% People tend to gravitate away from consoles the more expert they get
+% Based on your task, those distinctions may blur
+% Is there a trend as expertise grows away from consoles?
 
 RQ1. How does tool preference vary by tool type, input type frequency, subtask, and perceived cognitive load?
 
@@ -55,6 +61,9 @@ RQ2. How does perceived cognitive load vary by tool type, subtask, and input typ
 H2. Perceived cognitive load correlates with tool type...
 
 \section{Related Work}
+%CNCF cloud survey findings (total number of Kubernetes developers and operators) 
+% Check out how they determine Kubernetes expertise ^ 
+
 Effects of a hybrid interface and multimodal features for learning how to program \cite{unal2021effects, grafsgaard2014additive}.
 
 Benefits of a textual versus graphical interfaces for learning how to program \cite{dillon2012comparing}.
@@ -291,6 +300,7 @@ All four participants ranked the kubctl CLI as the tool interface they preferred
 \end{table}
 
 \section{Design Implications}
+%Kui correlates preference and improves the metrics....
 
 \section{Future Work}
 
