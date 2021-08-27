@@ -15,8 +15,6 @@ Finally, we share participant recommendations for improving each tool interface 
 ![Survey0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey0.png)
 ![Survey1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey1.png)
 
-# Study 2: User Study of Kubernetes Debugging Task Using the `kubectl` CLI and the OpenShift web console
-
-# Study 3: Quantifying User Tool Preference for a Kubernetes Debugging Task
+# Study 2: Quantifying User Tool Preference for a Kubernetes Debugging Task
 ![Study0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study0.png)
 ![Study1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study1.png)
