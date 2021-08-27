@@ -10,7 +10,11 @@ The third part of our study *quantifies* these preferences, to help us towards a
 
 Finally, we share participant recommendations for improving each tool interface and our own design insights observed from the study to inform the future design of Kubernetes tool interfaces.
 
-# Study 1: Survey of how Tool Preference Varies by Task and Breakdown of Task Frequencies
+# Study 1: Survey of how Tool Preference Varies by Task and Breakdown of Task Type Frequencies
 
 ![Survey0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey0.png)
 ![Survey1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey1.png)
+
+# Study 2: User Study of Kubernetes Debugging Task Using the `kubectl` CLI and OpenShift web console
+
+# Study 3: Quantifying User Tool Preference for a Kubernetes Debugging Task
