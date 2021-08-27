@@ -9,3 +9,5 @@ The second part of our study drills down on a debugging task, to further explore
 The third part of our study *quantifies* these preferences, to help us towards a more constructive perspective. To analyze preference for these disparate modalities, we identify a set of *comparable* metrics that can be easily deduced from screen recordings of the debugging task sessions. We show how to use these measurable quantities to quantify user *exhaustion* and *disruption*. When comparing these values, we found that the CLI modality can offer significantly lower counts for *both* metrics.
 
 Finally, we share participant recommendations for improving each tool interface and our own design insights observed from the study to inform the future design of Kubernetes tool interfaces.
+
+![Survey0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey0.png)
