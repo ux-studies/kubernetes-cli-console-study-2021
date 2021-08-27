@@ -20,3 +20,5 @@ Finally, we share participant recommendations for improving each tool interface 
 # Part 3: Quantifying User Tool Preference for a Kubernetes Debugging Task
 ![Study0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study0.png)
 ![Study1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study1.png)
+![Study2](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study2.png)
+![Study3](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study3.png)
