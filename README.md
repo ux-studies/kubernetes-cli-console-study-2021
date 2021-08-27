@@ -10,4 +10,6 @@ The third part of our study *quantifies* these preferences, to help us towards a
 
 Finally, we share participant recommendations for improving each tool interface and our own design insights observed from the study to inform the future design of Kubernetes tool interfaces.
 
+# Study 1: Survey of how Tool Preference Varies by Task
+
 ![Survey0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey0.png)
