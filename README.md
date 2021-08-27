@@ -18,3 +18,4 @@ Finally, we share participant recommendations for improving each tool interface 
 # Study 2: User Study of Kubernetes Debugging Task Using the `kubectl` CLI and the OpenShift web console
 
 # Study 3: Quantifying User Tool Preference for a Kubernetes Debugging Task
+![Study0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study0.png)
