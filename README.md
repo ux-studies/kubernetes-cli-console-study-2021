@@ -37,16 +37,16 @@ Finally, we share participant recommendations for improving each tool interface 
 
 ![Study1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study1.png)
 
-*Participant exhaustion measured by counting observed clicks, commands, and mouse movements was overall higher for clicks and mouse movements using the OpenShift and was overall higher for commands using the kubectl CLI.*
+*Participant exhaustion measured by counting observed clicks, commands, and mouse movements are overall higher for clicks and mouse movements using the OpenShift and are overall higher for commands using the kubectl CLI.*
 
 ![Study3](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study3.png)
 
-*Participant disruption measured by counting observed switches between mouse and keyboard inputs was overall higher for the OpenShift Console. Participants P2, P3, and P4 had lower frequencies of disruption using the kubectl CLI than the OpenShift Console.*
+*Participant disruption measured by counting observed switches between mouse and keyboard inputs are overall higher for the OpenShift Console. Participants P2, P3, and P4 have lower frequencies of disruption using the kubectl CLI than the OpenShift Console.*
 
 ![Study2](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study2.png)
 
-*Participant disruption measured by counting observed switches between mouse and keyboard inputs was overall higher for the OpenShift Console.*
+*Participant disruption measured by counting observed switches between mouse and keyboard inputs are overall higher for the OpenShift Console.*
 
 ![Study6](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study6.png)
 
-*Participant breakdown of low level and high level interactions and totals for exhaustion and disruption. Low level interactions are represented as letters: clicks (C), commands (K), and mouse movements (M). Exhaustion calculated by counting each interaction (i.e. K = 1, KK = 2, etc.) and disruption calculated by counting each switch from mouse to keyboard (i.e. MC = 0, MK = 1, KMK = 2). High level interactions are represented as regular expressions composed of the low level interactions used to accomplish command execution, copy/paste, navigation, and tab completion. Exhaustion and disruption totals are higher for the OpenShift Console.*
+*Participant breakdown of low level and high level interactions and totals for exhaustion and disruption. Low level interactions are represented as letters: clicks (C), commands (K), and mouse movements (M). Exhaustion calculated by counting each interaction (i.e. K = 1, KK = 2, etc.) and disruption calculated by counting each switch from mouse to keyboard (i.e. MC = 0, MK = 1, KMK = 2). High level interactions are represented as regular expressions composed of the low level interactions used to accomplish command execution, copy/paste, navigation, and tab completion. Exhaustion and disruption totals are overall higher for the OpenShift Console.*
