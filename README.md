@@ -48,3 +48,5 @@ Finally, we share participant recommendations for improving each tool interface 
 *Participant disruption measured by counting observed switches between mouse and keyboard inputs was overall higher for the OpenShift Console.*
 
 ![Study6](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study6.png)
+
+*Participant breakdown of low level and high level interactions. Low level interactions are represented as letters: clicks (C), commands (K), and mouse movements (M). High level interactions are represented as regular expressions composed of the low level interactions used to accomplish command execution, copy/paste, navigation, and tab completion.*
