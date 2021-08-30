@@ -46,3 +46,5 @@ Finally, we share participant recommendations for improving each tool interface 
 ![Study2](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study2.png)
 
 *Participant disruption measured by counting observed switches between mouse and keyboard inputs was overall higher for the OpenShift Console.*
+
+![Study6](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study6.png)
