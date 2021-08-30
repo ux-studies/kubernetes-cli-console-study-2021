@@ -33,11 +33,15 @@ Finally, we share participant recommendations for improving each tool interface 
 # Part 3: Quantifying User Tool Preference for a Kubernetes Debugging Task
 ![Study0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study0.png)
 
+*Participant breakdown of exhaustion measured by counting observed clicks, commands, and mouse movements. Participants P3 and P4 almost exclusively used commands to complete the debugging task using the kubectl CLI and all participants almost exclusively used clicks and mouse movements using the OpenShift Console.*
+
 ![Study1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study1.png)
 
 *Participant exhaustion measured by counting observed clicks, commands, and mouse movements was overall higher for clicks and mouse movements using the OpenShift and was overall higher for commands using the kubectl CLI.*
 
 ![Study3](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study3.png)
+
+*Participant disruption measured by counting observed switches between mouse and keyboard inputs was overall higher for the OpenShift Console. Participants P2, P3, and P4 had lower frequencies of disruption using the kubectl CLI than the OpenShift Console.*
 
 ![Study2](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study2.png)
 
