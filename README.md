@@ -14,18 +14,31 @@ Finally, we share participant recommendations for improving each tool interface 
 
 ![Survey0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey0.png)
 
+*A majority of people prefer to use CLIs to work on Kubernetes CRUD tasks and half prefer to use CLIs to work on Kubernetes debugging and monitoring tasks.*
+
 ![Survey1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey1.png)
 
-# Part 2: User Study of Tool Preference for Kubernetes Debugging Task
+*A majority of the time that people use Kubernetes, they are working on CRUD tasks many times each day.*
+
+# Part 2: User Study of Tool Preference for a Kubernetes Debugging Task
+
 ![Study4](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study4.png)
 
+*Participants P2 and P3 perceived that they were more successful at completing the debugging task using the kubectl CLI than using the OpenShift Console.*
+
 ![Study5](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study5.png)
+
+*All participants said that they liked using the kubectl CLI to complete the debugging task, while half said they liked using the OpenShift Console.*
 
 # Part 3: Quantifying User Tool Preference for a Kubernetes Debugging Task
 ![Study0](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study0.png)
 
 ![Study1](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study1.png)
 
+*Participant exhaustion measured by counting observed clicks, commands, and mouse movements was overall higher for clicks and mouse movements using the OpenShift and was overall higher for commands using the kubectl CLI.*
+
 ![Study3](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study3.png)
 
 ![Study2](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study2.png)
+
+*Participant disruption measured by counting observed switches between mouse and keyboard inputs was overall higher for the OpenShift Console.*
