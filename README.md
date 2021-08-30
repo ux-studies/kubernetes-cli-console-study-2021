@@ -24,7 +24,7 @@ Finally, we share participant recommendations for improving each tool interface 
 
 ![Study4](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study4.png)
 
-*Participants P2 and P3 perceived that they were more successful at completing the debugging task using the kubectl CLI than using the OpenShift Console.*
+*PHalf of the participants perceived that they were more successful at completing the debugging task using the kubectl CLI than using the OpenShift Console.*
 
 ![Study5](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Study5.png)
 
