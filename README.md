@@ -14,7 +14,7 @@ Finally, we share participant recommendations for improving each tool interface 
 
 The purpose of this survey is to understand how Kubernetes users accomplish certain tasks (CRUD, debugging, and monitoring) given the inherent limitations of broad classes of tool modalities (textual and graphical). Our survey results show that a majority of people prefer to use CLIs to work on Kubernetes CRUD tasks as opposed to using an IDE or Graphical Console and half of prefer to use CLIs to work on Kubernetes debugging and monitoring tasks.
 
-![Survey2(https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey2.png)
+![Survey2](https://github.com/ux-studies/kubernetes-cli-console-study-2021/blob/main/Survey2.png)
 
 *Participant levels of Kubernetes experience.*
 
